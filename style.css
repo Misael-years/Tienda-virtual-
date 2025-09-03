@@ -36,17 +36,20 @@ section{
     gap: 0.5rem;
     margin: 1.5rem 0.1rem 5rem 0.1rem;
     }
-article{
+section article{
+    width: 48%;
     border-radius:8px;
     background-color: rgba(255, 255, 255, 0.315);
     box-shadow:0 0.1rem 0.4rem rgba(0, 0, 0, 0.3);
 }
 section article img{
+    width: 100%;    
     width: 12rem;
     border-radius: 0.3rem;
 }
 .product_inf{
-    margin: 0 0 0 1rem;
+    margin: 0 0 0 0;
+    text-align: center;
 }
 section article span{
     color: #3736368e;   
@@ -97,8 +100,14 @@ footer{
     margin: 0;
     border-top: 0.01rem solid white;    
 }
-@media (min-width: 992px){
+@media (min-width: 800px){
     section{
          gap: 1rem;
+    }
+    section article{
+         width: auto;
+    }
+    section article img{
+        width: 12rem;
     }
 }
