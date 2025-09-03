@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #efefef;
+}
+a{
+    text-decoration: none;
+}
+header{
+    background-color: #090023;
+    color: white;
+    padding: 1rem ;      
+}
+.contador{
+    width: auto;
+    position: fixed;
+    top: 3rem;
+    right: 1rem;
+    z-index: 1000;
+    padding: 0.2rem;
+    background-color:  #090023b2;
+    border-radius: 0.2rem;
+    box-shadow: 0 0.5rem 0.3rem rgba(0, 0, 0, 0.3);
+}
+#titulo{
+    margin: 0;
+    text-align: center;
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center ;
+    gap: 0.5rem;
+    margin: 1.5rem 0.1rem 5rem 0.1rem;
+    }
+article{
+    border-radius:8px;
+    background-color: rgba(255, 255, 255, 0.315);
+    box-shadow:0 0.1rem 0.4rem rgba(0, 0, 0, 0.3);
+}
+section article img{
+    width: 12rem;
+    border-radius: 0.3rem;
+}
+.product_inf{
+    margin: 0 0 0 1rem;
+}
+section article span{
+    color: #3736368e;   
+}
+.product_precio{
+    display: flex;
+    justify-content: space-between;
+    text-align:left;
+    margin: 0.5rem 1rem 0.5rem 1.5rem;   
+    font-size: 1rem;
+    font-weight: bold;
+}
+.product_precio p{
+    margin: 0;
+}
+footer{
+    margin: 0;
+    padding: 1rem;
+    padding-bottom: 0.1rem;
+    color: #fff; 
+    background-color: #252527;
+}
+#footer_inicio{
+    margin: 0.5rem 0 0.5rem 0;
+    text-align: center;
+}
+.social_link{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;   
+}
+.footer_contener{
+    margin: 1rem 0 0.5rem 0 ;
+
+}
+.contacto{
+    padding: 1rem;
+}
+.contacto p,h4{
+    text-align: center;
+    margin: 0;
+} 
+.promocion {
+    margin: 0.5rem 0.2rem 0 0;
+    text-align: right;
+}
+.footer_final p{
+    margin: 0;
+    border-top: 0.01rem solid white;    
+}
+@media (min-width: 992px){
+    section{
+         gap: 1rem;
+    }
+}
