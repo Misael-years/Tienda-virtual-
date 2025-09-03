@@ -44,7 +44,6 @@ section article{
 }
 section article img{
     width: 100%;    
-    width: 12rem;
     border-radius: 0.3rem;
 }
 .product_inf{
@@ -111,3 +110,4 @@ footer{
         width: 12rem;
     }
 }
+
